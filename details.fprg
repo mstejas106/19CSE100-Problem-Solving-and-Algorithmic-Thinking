@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mstej"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 11:00:59 AM"/>
+        <attribute name="created" value="bXN0ZWo7VEVKQVNMQVBUT1A7MjAyMi0xMC0yODsxMDo1MToyMyBBTTsyNjQ0"/>
+        <attribute name="edited" value="bXN0ZWo7VEVKQVNMQVBUT1A7MjAyMi0xMC0yODsxMTowMDo1OSBBTTsxOzI3NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="RollNumber" type="Integer" array="False" size=""/>
+            <declare name="subjectcode" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter RollNumber&quot;" newline="True"/>
+            <input variable="RollNumber"/>
+            <for variable="subjectcode" start="1" end="6" direction="inc" step="1">
+                <output expression="&quot;enter subjectcode&quot;" newline="True"/>
+                <input variable="subjectcode"/>
+                <output expression="&quot;enter marks&quot;" newline="True"/>
+                <declare name="marks" type="Integer" array="False" size=""/>
+                <input variable="marks"/>
+            </for>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter total marks&quot;" newline="True"/>
+            <input variable="total"/>
+            <declare name="average" type="Real" array="False" size=""/>
+            <assign variable="average" expression="total/6"/>
+            <output expression="&quot;average marks are &quot; &amp;average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
