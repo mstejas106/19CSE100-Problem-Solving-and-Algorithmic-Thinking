@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22038"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 10:33:44 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTExLTA0OzEwOjIyOjI4IEFNOzMwNjA="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTExLTA0OzEwOjMzOjQ0IEFNOzI7MzE2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER YOUR DIVIDEND&quot;" newline="True"/>
+            <input variable="A"/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER YOUR DIVISOR&quot;" newline="True"/>
+            <input variable="B"/>
+            <comment text="QUOTIENT"/>
+            <declare name="C" type="Integer" array="False" size=""/>
+            <assign variable="C" expression="A/B"/>
+            <comment text="REMAINDER"/>
+            <declare name="D" type="Integer" array="False" size=""/>
+            <assign variable="D" expression="A-B*C"/>
+            <output expression="&quot;YOUR REMAINDER IS = &quot; &amp;D" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

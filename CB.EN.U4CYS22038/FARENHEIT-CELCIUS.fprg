@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22038"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 10:45:02 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTExLTA0OzA5OjMwOjAzIEFNOzMwNjA="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTExLTA0OzEwOjQ1OjAyIEFNOzM7MzE2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="CHANGING TEMPERATURE TO CELCIUS"/>
+            <declare name="farenheit" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter temoerature in Farenheit&quot;" newline="True"/>
+            <input variable="farenheit"/>
+            <comment text="TEMPERATURE IN FARENHEIT"/>
+            <declare name="celcius" type="Real" array="False" size=""/>
+            <assign variable="celcius" expression="(farenheit-32)*(5/9)"/>
+            <output expression="&quot;Temperature in Celcius = &quot; &amp;CELCIUS" newline="True"/>
+            <comment text="FARENHEIT TO CELCIUS"/>
+        </body>
+    </function>
+</flowgorithm>

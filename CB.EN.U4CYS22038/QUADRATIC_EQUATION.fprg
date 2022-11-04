@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22038"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 10:20:00 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTExLTA0OzA5OjM3OjI1IEFNOzMwNzE="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTExLTA0OzEwOjIwOjAwIEFNOzI7MzE1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter you x^2 coefficient&quot;" newline="True"/>
+            <input variable="a"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter you x coefficient&quot;" newline="True"/>
+            <input variable="b"/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your constant&quot;" newline="True"/>
+            <input variable="c"/>
+            <declare name="Root1" type="Real" array="False" size=""/>
+            <assign variable="Root1" expression="(-b+((b^2)-4*a*c)^1/2)/2*a"/>
+            <output expression="&quot;YOUR FIRST ROOT IS = &quot; &amp;Root1" newline="True"/>
+            <declare name="Root2" type="Real" array="False" size=""/>
+            <assign variable="Root2" expression="(-b-((b^2)-4*a*c)^1/2)/2*a"/>
+            <output expression="&quot;YOUR SECOND ROOT IS =  &quot; &amp;Root2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

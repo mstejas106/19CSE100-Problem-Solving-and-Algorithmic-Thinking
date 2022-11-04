@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22038"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 10:36:24 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTExLTA0OzA5OjUzOjA2IEFNOzMwNjg="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTExLTA0OzEwOjM2OjI0IEFNOzM7MzE3MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;ENTER B&quot;" newline="True"/>
+            <input variable="B"/>
+            <comment text="SWAP THE NUMBERS"/>
+            <assign variable="A" expression="A+B"/>
+            <assign variable="B" expression="A-B"/>
+            <output expression="&quot;YOUR NEW A IS &quot; &amp;B" newline="True"/>
+            <comment text="A VALUE CHANGED TO B"/>
+            <assign variable="A" expression="A-B"/>
+            <output expression="&quot;YOUR NEW B IS &quot; &amp;A" newline="True"/>
+            <comment text="B VALUE CHANGED TO A"/>
+        </body>
+    </function>
+</flowgorithm>
