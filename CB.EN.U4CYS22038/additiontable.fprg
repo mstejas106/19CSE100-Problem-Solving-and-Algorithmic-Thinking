@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22038"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-02 10:09:00 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTEyLTAyOzA5OjM4OjM0IEFNOzMwNzE="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjAzODsyMDIyMjNNQVlDMDA3NTsyMDIyLTEyLTAyOzEwOjA5OjAwIEFNOzEwOzMyMTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n" type="Real" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <assign variable="n" expression="1"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;THE ADDITION TABLE OF &quot; &amp;I&amp; &quot;IS&quot;" newline="True"/>
+                <for variable="n" start="1" end="10" direction="inc" step="1">
+                    <output expression="i &amp; &quot;+&quot; &amp; n &amp; &quot;=&quot; &amp;(n+i)" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
